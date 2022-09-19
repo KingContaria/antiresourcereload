@@ -5,10 +5,10 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MinecraftClientMixin",
-    "ServerResourceManagerMixin",
-    "RecipeManagerMixin",
+    "RecipeBookWidgetMixin",
     "RecipeManagerAccess",
-    "RecipeBookWidgetMixin"
+    "RecipeManagerMixin",
+    "SaveLoaderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
